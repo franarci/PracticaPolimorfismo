@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LibreriaPracticaPolimorfismo.Ajedrez.Models;
 
 namespace WindowsAjedrez
 {
@@ -15,6 +16,12 @@ namespace WindowsAjedrez
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnPeon_Click(object sender, EventArgs e)
+        {
+            Peon peon = new Peon();
+            MessageBox.Show(peon.mover());
         }
     }
 }
