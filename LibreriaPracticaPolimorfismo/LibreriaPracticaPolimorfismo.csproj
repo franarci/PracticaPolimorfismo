@@ -45,6 +45,7 @@
     <Compile Include="Ajedrez\Models\Peon.cs" />
     <Compile Include="Ajedrez\Models\PiezaAjedrez.cs" />
     <Compile Include="Ajedrez\Models\Torre.cs" />
+    <Compile Include="Animales\Animal.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transportes\Auto.cs" />
