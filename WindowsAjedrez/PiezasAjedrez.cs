@@ -11,9 +11,9 @@ using LibreriaPracticaPolimorfismo.Ajedrez.Models;
 
 namespace WindowsAjedrez
 {
-    public partial class Form1 : Form
+    public partial class PiezasAjedrez : Form
     {
-        public Form1()
+        public PiezasAjedrez()
         {
             InitializeComponent();
         }
