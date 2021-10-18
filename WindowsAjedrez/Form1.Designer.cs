@@ -51,6 +51,7 @@
             this.btnCaballo.TabIndex = 1;
             this.btnCaballo.Text = "Caballo";
             this.btnCaballo.UseVisualStyleBackColor = true;
+            this.btnCaballo.Click += new System.EventHandler(this.btnCaballo_Click);
             // 
             // btnTorre
             // 

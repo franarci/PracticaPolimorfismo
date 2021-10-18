@@ -23,5 +23,11 @@ namespace WindowsAjedrez
             Peon peon = new Peon();
             MessageBox.Show(peon.mover());
         }
+
+        private void btnCaballo_Click(object sender, EventArgs e)
+        {
+            Caballo caballo = new Caballo();
+            MessageBox.Show(caballo.mover());
+        }
     }
 }
