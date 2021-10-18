@@ -29,5 +29,11 @@ namespace WindowsAjedrez
             Caballo caballo = new Caballo();
             MessageBox.Show(caballo.mover());
         }
+
+        private void btnTorre_Click(object sender, EventArgs e)
+        {
+            Torre torre = new Torre();
+            MessageBox.Show(torre.mover());
+        }
     }
 }

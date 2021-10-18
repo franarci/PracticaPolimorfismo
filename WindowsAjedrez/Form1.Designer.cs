@@ -61,6 +61,7 @@
             this.btnTorre.TabIndex = 2;
             this.btnTorre.Text = "Torre";
             this.btnTorre.UseVisualStyleBackColor = true;
+            this.btnTorre.Click += new System.EventHandler(this.btnTorre_Click);
             // 
             // Form1
             // 
