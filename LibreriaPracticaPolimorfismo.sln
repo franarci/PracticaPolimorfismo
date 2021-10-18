@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1684
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaPracticaPolimorfismo", "LibreriaPracticaPolimorfismo\LibreriaPracticaPolimorfismo.csproj", "{B1BDBB12-1883-4EFA-ACC9-2DB2974C2F68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAjedrez", "WindowsAjedrez\WindowsAjedrez.csproj", "{02BF67F9-0C71-4259-93A3-EFE0CD6601C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B1BDBB12-1883-4EFA-ACC9-2DB2974C2F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1BDBB12-1883-4EFA-ACC9-2DB2974C2F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1BDBB12-1883-4EFA-ACC9-2DB2974C2F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BF67F9-0C71-4259-93A3-EFE0CD6601C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BF67F9-0C71-4259-93A3-EFE0CD6601C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BF67F9-0C71-4259-93A3-EFE0CD6601C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BF67F9-0C71-4259-93A3-EFE0CD6601C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
