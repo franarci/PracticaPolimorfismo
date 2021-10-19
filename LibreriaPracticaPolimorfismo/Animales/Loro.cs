@@ -8,8 +8,8 @@ namespace LibreriaPracticaPolimorfismo.Animales
 {
     public class Loro : Animal
     {
-        public double Coloracion { get; set; }
-        public Loro(int edad, double altura, double peso, double coloracion) : base(edad, altura, peso)
+        public string Coloracion { get; set; }
+        public Loro(int edad, double altura, double peso, string coloracion) : base(edad, altura, peso)
         {
             Coloracion = coloracion;
         }

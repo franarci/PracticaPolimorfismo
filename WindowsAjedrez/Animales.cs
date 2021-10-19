@@ -26,8 +26,14 @@ namespace WindowsForms
 
         private void btnConejo_Click(object sender, EventArgs e)
         {
-            Conejo conejo = new Conejo(7, 0.50, 3.1, 15.9);
+            Conejo conejo = new Conejo(7, 0.10, 3.1, 15.9);
             MessageBox.Show(conejo.imprimir() + ", Alimentacion: " + conejo.imprimirComida());
+        }
+
+        private void btnLoro_Click(object sender, EventArgs e)
+        {
+            Loro loro = new Loro(3, 0.53, 1.78, "Rojo");
+            MessageBox.Show(loro.imprimir() + ", Alimentacion: " + loro.imprimirComida());
         }
     }
 }
