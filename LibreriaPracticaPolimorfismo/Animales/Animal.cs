@@ -44,5 +44,7 @@ namespace LibreriaPracticaPolimorfismo.Animales
         {
             return("Edad: "+ Edad + ", Altura: "+ Altura+", Peso: "+ Peso);
         }
+
+        public abstract string imprimirComida();
     }
 }
