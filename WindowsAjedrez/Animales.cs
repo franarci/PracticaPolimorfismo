@@ -23,5 +23,11 @@ namespace WindowsForms
             Leon leon = new Leon(10, 1.50, 90.59,7.6);
             MessageBox.Show(leon.imprimir() + ", Alimentacion: "+ leon.imprimirComida());
         }
+
+        private void btnConejo_Click(object sender, EventArgs e)
+        {
+            Conejo conejo = new Conejo(7, 0.50, 3.1, 15.9);
+            MessageBox.Show(conejo.imprimir() + ", Alimentacion: " + conejo.imprimirComida());
+        }
     }
 }
