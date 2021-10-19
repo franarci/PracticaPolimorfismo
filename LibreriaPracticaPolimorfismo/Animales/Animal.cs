@@ -19,7 +19,7 @@ namespace LibreriaPracticaPolimorfismo.Animales
             Altura = altura;
             Peso = peso;
         }
-
+        #region getters
         public int getEdad {
             get
             {
@@ -37,6 +37,12 @@ namespace LibreriaPracticaPolimorfismo.Animales
             {
                 return Peso;
             }
+        }
+        #endregion
+
+        public virtual string imprimir()
+        {
+            return("Edad: "+ Edad + ", Altura: "+ Altura+", Peso: "+ Peso);
         }
     }
 }
