@@ -49,6 +49,9 @@
     <Compile Include="Animales\Conejo.cs" />
     <Compile Include="Animales\Leon.cs" />
     <Compile Include="Animales\Loro.cs" />
+    <Compile Include="Banco\Cuenta.cs" />
+    <Compile Include="Banco\CuentaAhorro.cs" />
+    <Compile Include="Banco\CuentaCorriente.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transportes\Auto.cs" />
